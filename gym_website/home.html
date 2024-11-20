@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link and images</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+
+    <style>
+    .left{
+        /* border: 10px solid green; */
+        display: inline-block;
+        position: absolute;
+        left:0px;
+        top: 5px;
+        margin:0px auto;
+        margin-left:10px;
+        font-size: 10px;
+        color: rgb(255, 0, 0);
+        /* display: none; */
+        width: auto;
+    }
+    .mid{
+        /* border:2px solid #c3ff00; */
+        border-radius: 50px;
+        display: block;
+        width:33%;
+        margin:-7px auto;
+        padding:1px;
+        padding-left:7px;
+        font-size: 7px;
+        font-family: 'Baloo Bhai';
+        /* display: none; */
+        width: 100%;
+    }
+    .right{
+        /* border:5px solid red; */
+        display: inline-block;
+        position: absolute;
+        right:2px; 
+        top: 0px;
+        margin:2px auto;
+        font-size: 10px;
+        /* display: none; */
+        width: auto;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        /* font-size: 25px; */
+    }
+    .navbar li a{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .navbar li a:hover{
+        color: rgb(251, 0, 0);
+    }
+    .navbar li a:active{
+        color: rgb(15, 240, 67);
+        text-decoration:underline;
+    }
+    .left img{
+        width:20px;
+        filter: drop-shadow(2px 10px 6px red);
+        margin-left:20px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 5px 5px;
+        background-color: black;
+        color: azure;
+        padding: 3px 5px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 10px;
+        font-size: 3px;
+        cursor:pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btn:hover{
+        color: rgb(255, 0, 0);
+        background-color: white;
+        font-weight: bold;
+        border: 2px solid black;
+    }
+    body{
+        background-image: url(8.jpg); 
+        display: none;
+    }
+    @media only screen and (max-width:282px) {
+        body{
+            display:block;
+        }
+    }
+    @media only screen and (min-width:282px) {
+        body{
+            display:inline-block;
+        }
+        .navbar li a{
+            padding-left: 15px;
+        }
+        .mid{
+            margin-left:250px;
+            font-size: 15px;
+        }
+        .btn{
+            margin: 15px 5px;
+            padding: 5px 5px;
+            font-size: 8px;
+        }
+        .left img{
+            width:40px;
+            margin-left:42px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .left{
+            margin-left:30px;
+            font-size: 20px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+         <img src="18.webp" alt="">
+         <div id="color">Modi Ji Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="contact_us.html">Contact Us </a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </div>
+    </header>
+</body>
+</html>

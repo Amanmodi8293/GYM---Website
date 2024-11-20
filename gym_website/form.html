@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modi Fitness</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url("20.webp");
+        background-repeat:no-repeat ;
+        background-size: 6000px;
+    }
+    .left{
+        /* border: 10px solid green; */
+        display: inline-block;
+        position: absolute;
+        left:20px;
+        top: 20px;
+        margin:5px auto;
+        margin-left:80px;
+        font-size: 100px;
+        color: rgb(255, 0, 0);
+    }
+    .mid{
+        /* border:20px solid rgb(255, 255, 255); */
+        border-radius: 500px;
+        display: block;
+        width:33%;
+        margin:24px auto;
+        padding:30px;
+        padding-left:200px;
+        font-size: 50px;
+        font-family: 'Baloo Bhai';
+    }
+    .right{
+        /* border:10px solid red; */
+        display: inline-block;
+        position: absolute;
+        right:20px; 
+        top: 20px;
+        margin:5px auto;
+        font-size: 60px;
+        font-family: 'Baloo Bhai';
+   }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        /* font-size: 25px; */
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding-left: 100px;
+        padding-right: 30px;
+        color: white;
+        font-weight: bolder;
+    }
+    .navbar li a:hover{
+        color: rgb(251, 0, 0);
+    }
+    .navbar li a:active{
+        color: rgb(15, 240, 67);
+        text-decoration:underline;
+    }
+    .left img{
+        width:200px;
+        filter: drop-shadow(2px 10px 6px red);
+        margin-left:200px;
+        margin-top: 10px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 20px 20px;
+        background-color: black;
+        color: azure;
+        padding: 15px 30px;
+        border: 5px solid rgb(195, 255, 0);
+        border-radius: 10px;
+        font-size: 30px;
+        cursor:pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btn:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        border: 10px solid black;
+    }
+    .container{
+        border: 15px solid rgb(255, 255, 255);
+        margin:400px 200px;
+        margin-left:200px;
+        padding: 50px 100px;
+        font-size: 50px;
+        display: inline-block;
+        border-radius: 50px;
+        color: aliceblue;
+    }
+    .formgroup input{
+        padding: 10px 10px;
+        margin:10px 10px;
+        margin-left:70px;
+        font-size: 50px;
+        text-align: center;
+        border: 10px solid black;
+        border-radius: 100px;
+        display: block;
+        font-family: 'Baloo Bhai';
+    }
+    button{
+        border: 15px solid rgb(255, 255, 255);
+        margin:50px 200px;
+        margin-left:230px;
+        padding: 20px 80px;
+        font-size: 50px;
+        display: inline-block;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+         <img src="18.webp" alt="">
+         <div id="color">Modi Ji Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="contact_us.html">Contact Us </a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Damoh now</h1>
+        <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Number">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Email id">
+        </div>
+        <div class="formgroup">
+            <button>Submit</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

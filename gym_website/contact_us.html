@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook icon</title>
+    <style>
+        body{
+            background-image: url("1234.avif");
+            background-repeat: no-repeat;
+            background-position: center;
+            display:block;
+            background-size: cover;
+        }
+        .left{
+        /* border: 10px solid green; */
+        display: inline-block;
+        position: absolute;
+        left:2rem;
+        top: 2rem;
+        margin:1rem auto;
+        margin-left:3rem;
+        font-size: 5rem;
+        color: rgb(255, 0, 0);
+    }
+    .mid{
+        border:2rem solid rgb(101, 5, 5);
+        border-radius: 2rem;
+        display: block;
+        width:33%;
+        margin:2rem auto;
+        margin-left:82rem;
+        padding:2rem;
+        padding-left:14rem;
+        font-size: 4rem;
+        font-family: 'Baloo Bhai';
+    }
+    .right{
+        /* border:10px solid red; */
+        display: inline-block;
+        position: absolute;
+        right:2rem; 
+        top: 2rem;
+        margin:2rem auto;
+        font-size: 2rem;
+        font-family: 'Baloo Bhai';
+   }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        /* font-size: 25px; */
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .navbar li a:hover{
+        color: rgb(251, 0, 0);
+    }
+    .navbar li a:active{
+        color: rgb(15, 240, 67);
+        text-decoration:underline;
+    }
+    .left img{
+        width:12rem;
+        filter: drop-shadow(2px 10px 6px red);
+        margin-left:9rem;
+        margin-top: 1rem;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 2rem 2rem;
+        background-color: black;
+        color: azure;
+        padding: 1rem 2rem;
+        border: 1rem solid rgb(195, 255, 0);
+        border-radius: 5rem;
+        font-size: 3rem;
+        cursor:pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btn:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        border: 1rem solid black;
+    }
+    .formgroup input{
+        padding: 2rem 1rem;
+        margin:1rem 1rem;
+        margin-left:2rem;
+        font-size: 2rem;
+        text-align: center;
+        border: 1rem solid black;
+        border-radius: 5rem;
+        display: inline;
+        font-family: 'Baloo Bhai';
+    }
+   .formgroup {
+        padding: 0rem 1rem;
+        margin:0px 1rem;
+        margin-left:1rem;
+        font-size: 10rem;
+        text-align: center;
+        color: black;
+        border-radius: 5rem;
+        /* display: inline;  */
+        font-family: 'Baloo Bhai'; 
+     } 
+    .button{
+        /* border: 10px solid rgb(255, 255, 255); */
+        /* margin-left:230px; */
+        font-size: 2rem;
+        display: inline-block;
+        /* background-color: black; */
+        color: white;
+        cursor: pointer;
+        margin-bottom: 2rem;
+    } 
+    /*  .button{
+        padding: 110px 1110px;
+        margin: 0px 2000px;
+        margin-top: 0px;
+        color: azure;
+        cursor: pointer;
+    }  */
+        .Facebook{
+            background-color: #0004ff;
+            border: 0.7rem solid black;
+            color: white;
+            text-decoration: none;
+            border-radius: 10rem;
+            padding: 1.3rem 5rem;
+            font-weight: bold;
+            margin:2rem 13rem;
+        }
+        .Instagram{
+            background-color: #ff00bf;
+            border: 0.7rem solid black;
+            color: white;
+            text-decoration: none;
+            border-radius: 10rem;
+            padding: 1.3rem 5rem;
+            font-weight: bold;
+            margin:2rem 13rem;
+        }
+        .Telegram{
+            background-color: #00f2ff;
+            border: 0.7rem solid black;
+            color: white;
+            text-decoration: none;
+            border-radius: 10rem;
+            padding: 1.3rem 5rem;
+            font-weight: bold;
+            margin:2rem 13rem;
+        }
+        .Whatsapp{
+            background-color: #00ff62;
+            border: 0.7rem solid black;
+            color: white;
+            text-decoration: none;
+            border-radius: 10rem;
+            padding: 1.3rem 5rem;
+            font-weight: bold;
+            margin:2rem 13rem;
+        }
+        #sub{
+            background-color: #000000;
+            border: 2px solid rgb(255, 255, 255);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            padding: 20px 80px;
+            font-weight: bold;
+            font-size: 50px;
+            margin:100px 200px;
+            cursor: pointer;
+        }
+        
+        .Whatsapp:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        box-shadow:5px 7px 25px 10px greenyellow;
+        border: 10px solid #780808e6;
+    }
+        .Telegram:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        box-shadow:5px 7px 25px 10px greenyellow;
+        border: 10px solid #780808e6;
+    }
+        .Instagram:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        box-shadow:5px 7px 25px 10px greenyellow;
+        border: 10px solid #780808e6;
+    }
+        .Facebook:hover{
+        color: brown;
+        background-color: white;
+        font-weight: bold;
+        box-shadow:5px 7px 25px 10px greenyellow;
+        border: 10px solid #780808e6;
+    }
+        #sub:hover{
+        color: rgb(0, 0, 0);
+        background-color: white;
+        font-weight: bold;
+        border: 10px solid #000000e6;
+        box-shadow:5px 7px 25px 10px greenyellow;
+    }
+    #heading{
+        color: #344b3a;
+        font-size: 24rem;
+        margin: 1rem;
+        padding:0rem;
+        border: 0rem solid #5b0808;
+        text-align: center;
+        border-radius: 5rem;
+    }
+    .container{
+        border: 1rem solid rgb(0, 0, 0);
+        margin:2rem 2rem;
+        margin-left: 40rem;
+        padding: 3rem 1rem;
+        font-size: 5rem;
+        display: inline-block;
+        border-radius: 5rem;
+        color: aliceblue;
+    }
+    .id{
+        padding:2rem 2rem;
+        margin:2rem 2rem;
+        /* margin-left:70px; */
+        font-size: 2rem;
+        text-align: center;
+        color: black;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+         <img src="18.webp" alt="">
+         <div id="color">Modi Ji Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="contact_us.html">Contact Us </a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        
+    </header>
+    <div id="heading">Modi Ji Fitness</div>
+    <div class="container">
+        <h1 class="formgroup">Contact Us</h1>
+        <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Email">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Message">
+        </div>
+        <div class="formgroup">
+            <button id="sub" >Submit</button>
+        </div>
+        <div class="button">
+            <a class="Facebook" class="button" href="https://www.facebook.com/robbin.modi.1?mibextid=ZbWKwL">
+                    <!-- <button class="Facebook" >Facebook</button> -->Facebook
+                </a>
+                <a class="Instagram" class="button" href="https://instagram.com/aman_modi__">
+                    <!-- <button class="Instagram">Instagram</button> -->Instagram
+                </a>
+                <a class="Telegram" class="button" href="http://t.me/Aman_modi12345">
+                    <!-- <button class="Telegram">Telegram</button> --> Telegram
+                </a>
+                <a class="Whatsapp" class="button" href="https://wa.me/917879129561?text=hello">
+                    <!-- <button class="Whatsapp">Whatsapp</button> -->Whatsapp
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
